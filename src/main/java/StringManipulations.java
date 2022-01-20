@@ -8,7 +8,7 @@ public class StringManipulations {
         String userInput;
 
         System.out.println("Enter Something: ");
-        userInput = sc.next();
+        userInput = sc.nextLine();
 
         System.out.println("You entered: " + userInput);
         if(StringUtils.isNumeric(userInput)){
